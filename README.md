@@ -193,7 +193,9 @@ Once you have prepared your data, you may go ahead with the user interfaces. Ref
 
 ### Training
 
-We have our training scripts ready, but we are still working on the documentation. We will release them no later than 2026/04/12. Please stay tuned!
+Training scripts for all models (LayerDiff, Marigold depth, VAE, body part segmentation)
+are available in [`training/`](training/README.md), along with configs and data pipeline
+utilities. Our training was conducted on 8x NVIDIA H200 GPUs.
 
 
 ## Community Support
@@ -234,6 +236,9 @@ Live2D artists by eliminating some of the most tedious part of the workflow, suc
 and occluded region inpainting.
 
 ## Changelog
+
+**2026-04-14**
+- Released training scripts, configs, and data pipeline for all models (LayerDiff, Marigold depth, VAE, body part segmentation). This is the V3 model with 23 body-part tag training.
 
 **2026-04-02**
 - Multiple memory optimizations; added suggestions for low-VRAM users (group offload, NF4 quantization).
